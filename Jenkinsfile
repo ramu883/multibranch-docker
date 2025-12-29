@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'docker cred') {
-                        sh 'docker push shaikmustafa/paytm:bus'
+                        sh 'docker push ramu883/paytm:bus'
                     }
                 }
             }
